@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de cartão</title>
+</head>
+<body>
+    <script src="main.js"></script>
+    <img id="bg" src="bg-main-desktop.png">
+    <img id="card1" src="bg-card-front.png">
+        <p id="numCart">0000 0000 0000 0000</p>
+        <p id="nomeCard">Mary Jane Watson</p>
+        <p id="dataCart">00</p>
+        <p id="dataCart2">00</p>
+        <p id="dataCart3">/</p>
+    <img id="card2" src="bg-card-back.png">
+        <p id="cvc1">000</p>
+    <svg width="84" height="47" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="23.478" cy="23.5" rx="23.478" ry="23.5" fill="#fff"/><path d="M83.5 23.5c0 5.565-4.507 10.075-10.065 10.075-5.559 0-10.065-4.51-10.065-10.075 0-5.565 4.506-10.075 10.065-10.075 5.558 0 10.065 4.51 10.065 10.075Z" stroke="#fff"/></svg>
+        <main>
+            
+            <input id="campo1" type="text" placeholder="Ex: Mary Jane Watson" oninput="nameInCard()">
+                <p id="vazio1">Apenas números</p>
+                    <p id="empty1">Não pode estar em branco</p>
+                        <p id="titular">Titular</p>
+            <input id="campo2" type="text" placeholder="Ex: 123 456 789 1011" oninput="numbersInCard()">
+                <p id="vazio2">Não pode estar em branco</p>
+                    <p id="Num">Número do Cartão</p>
+            <input id="mes" type="text" placeholder="MM" oninput="validarMes()">
+                <p id="vazio3">Não pode estar em branco</p>
+                    <p id="data">Exp. Data (MM/AA)</p>
+            <input id="ano" type="text" placeholder="AA" oninput="validarAno()">
+                <p id="cvctexto">CVV</p>
+            <input id="cvc2" type="text" placeholder="e.g.123" oninput="validarCVV()">
+            <input id="confirmar" type="button" value="confirmar">
+        </main>
+</body>
+</html>

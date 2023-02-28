@@ -1,0 +1,188 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'Space Grotesk', sans-serif;
+}
+body{
+    overflow:hidden ;
+    background: rgb(208, 208, 208);
+}
+#bg{
+    height: 660px;
+    width: 480px;
+}
+#card1{
+    border-radius: 10px;
+    position: relative;
+    left: -370px;
+    top: -360px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.463)
+}
+#card2{
+    border-radius: 10px;
+    position: relative;
+    left: 240px;
+    top: -410px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.463)
+}
+svg{
+    position: relative;
+    left: 140px;
+    top: -960px;
+    z-index: 1;
+}
+p{
+    cursor:default;
+    position: relative;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+main{
+    position: relative;
+    top: -220px;
+    left: -10px;
+}
+#titular{
+    top: -785px;
+    left: 850px;
+}
+#Num{
+    top: -730px;
+    left: 850px;
+}
+#data{
+    top: -671px;
+    left: 850px;
+}
+
+#cvctexto{
+    top: -730px;
+    left: 1046px;
+}
+
+#numCart{
+    color: whitesmoke;
+    top: -480px;
+    left: 145px;
+    font-size: 30px;
+}
+
+#nomeCard{
+    top: -450px;
+    left: 145px;
+    color: whitesmoke;
+}
+
+#dataCart{
+    top: -470px;
+    left: 475px;
+    color: whitesmoke;
+}
+#dataCart2{
+    top: -489px;
+    left: 510px;
+    color: whitesmoke;
+}
+#dataCart3{
+    top: -510px;
+    left: 500px;
+    color: whitesmoke;
+}
+#cvc1{
+    top: -550px;
+    left: 599px;
+    color: whitesmoke;
+}
+input{
+    font-size: 16px;
+    position: relative;
+    height: 40px;
+    width: 355px;
+    text-indent: 10px;
+    border-radius: 5px;
+    background: rgb(208, 208, 208);
+    border: none;
+    outline: none;
+    box-shadow: 8px 8px 15px rgba(128, 128, 128, 0.484),
+    -8px -8px 15px rgba(245, 245, 245, 0.518);
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+#vazio1, #vazio2, #vazio3, #empty1{
+    opacity: 0%;
+    font-size: 12px;
+    top: -568px;
+    left: 850px;
+    color: hsl(0, 100%, 66%);
+}
+#vazio1{
+    top: -550px;
+    left: 850px;
+}
+#empty1{
+    top: -700px;
+    left: 850px;
+}
+#vazio2{
+    top: -508px;
+    left: 850px;
+}
+#vazio3{
+    top: -583px;
+    left: 1040px;
+}
+#campo1{
+    top: -690px;
+    left: 837px;
+}
+#campo2{
+    top: -650px;
+    left: 837px;
+}
+
+#mes{
+    top: -590px;
+    left: 837px;
+    width: 80px;
+}
+
+#ano{
+    top: -665px;
+    left: 925px;
+    width: 80px;
+}
+
+#cvc2{
+    top: -722px;
+    left: 1040px;
+    width: 150px;
+}
+
+#confirmar{
+    font-weight: bold;
+    color: azure;
+    height: 40px;
+    background: hsl(278, 68%, 11%);
+    top: -640px;
+    left: 680px;
+}
+
+#confirmar:hover{
+    background-color:  hsl(278, 50%, 14%) ;
+}
+
+#cvc2:focus,#campo1:focus, #campo2:focus, #mes:focus,#ano:focus{
+    box-shadow: inset 8px 8px 15px rgba(128, 128, 128, 0.484),
+    inset -8px -8px 15px rgba(245, 245, 245, 0.484);
+}
+
+#cvc2::-webkit-input-placeholder,#ano::-webkit-input-placeholder,#mes::-webkit-input-placeholder,#campo1::-webkit-input-placeholder,#campo2::-webkit-input-placeholder{
+    color: rgba(128, 128, 128, 0.741);
+}
